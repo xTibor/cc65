@@ -647,7 +647,7 @@ int IsIdChar (int C)
     return IsAlNum (C)                  ||
            (C == '_')                   ||
            (C == '@' && AtInIdents)     ||
-           (C == '$' && DollarInIdents);
+           (C == '$');
 }
 
 
